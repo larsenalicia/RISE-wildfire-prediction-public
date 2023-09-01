@@ -1,3 +1,11 @@
+
+# Manual ignores:
+data/
+
+# -------------------
+# Gitignore template: 
+# -------------------
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
