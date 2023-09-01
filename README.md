@@ -6,8 +6,8 @@ This study aims to predict wildfires in Sweden using only satellite data in comb
 #### Tutorial
 This repository contains tutorials on all steps from data procurement to analysis, regarding wildfire prediction. These are the steps to get you started:
 
-1. Download the requirements in the requirements.txt file. 
-2. Modify the variables in globals/global_vars.py file, to suit the location, time period, area etc. of interest.
+1. Download the requirements in the <code>requirements.txt</code> file. 
+2. Modify the variables in <code>globals/global_vars.py</code> file, to suit the location, time period, area etc. of interest.
 3. Run <code>0_set_up.pyinb</code> to create all the necessary folders for the data storage.
 4. Run <code>1_data_procurement.pyinb</code> to acquire the data specified in the globals/global_vars.py file.
 5. Run <code>2_data_qc_filtering.pyinb</code> to filter the data based on the quality control dataset. Note that this notebook requires manual modification of the filtering requirements to suit the datasets of interest.
